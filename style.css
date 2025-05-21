@@ -1,0 +1,52 @@
+
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: black;
+      color: white;
+    }
+    header {
+        background-color: #ffffffad;
+        color: black;
+        padding: 10px 30px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: row;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        z-index: 1000;
+      }
+      
+    nav a {
+      margin: 0 10px;
+      text-decoration: none;
+      color: black;
+      font-weight: bold;
+    }
+    .section {
+      padding: 50px 20px;
+      text-align: center;
+    }
+    .section img.profile-pic {
+      border-radius: 50%;
+      width: 150px;
+      height: 150px;
+      object-fit: cover;
+      margin-bottom: 20px;
+    }
+    .section img.project-logo {
+      width: 120px;
+      margin: 0 20px;
+    }
+    .intro {
+        margin-top: 5rem;
+      background: url('/foto/bg.jpg') no-repeat center center/cover;
+      color: white;
+    }
+    .quote {
+      font-style: italic;
+      margin-top: 30px;
+    }
+  
